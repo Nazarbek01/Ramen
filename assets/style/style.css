@@ -1,0 +1,113 @@
+@import './fonts.css';
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto';
+}
+body{
+    background: rgb(226, 199, 204);
+}
+li{
+    list-style: none;
+}
+.text__logo{
+    color: rgb(152, 104, 112);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 80px;
+}
+.video{
+    padding-top: 50px;
+    width: 650px;
+    height: 480px;
+}
+.videos__ingridient{
+    display: flex;
+    justify-content: space-evenly;
+    background: url('../images/sakurar.jpg') no-repeat center center fixed;
+    height: 650px;
+    background-size: cover;
+    width: none;
+    
+}
+.ingridient{
+    margin-left: -150px;
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: 'Roboto';
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+}
+.vikipedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: s;
+    align-items: center;
+}
+.vikipedia__ramen{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    align-items: center;
+    max-width: 500px;
+}
+.img__box{
+    
+    margin-top: 30px;
+    background: palevioletred no-repeat center center fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+.img__eat{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    max-width: 1800px;
+    
+}
+.img img{
+    border: 3px solid rgb(182, 86, 86);
+    width: 150px;
+    height: 120px;
+    gap: 35px;
+    display: flex;
+}
+.Varieties{
+    font-size: 45px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.autor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    text-decoration: none;
+    margin-bottom: 25px;
+
+}
+.autor a{
+    text-decoration: none;
+}
+.name{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: white;
+    
+}
